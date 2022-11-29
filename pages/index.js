@@ -1,6 +1,9 @@
 import Head from "next/head";
-import { Header } from "../components/LoginAndRegister/Header";
 
 export default function Home() {
-  return <Header />;
+  return (
+    <div>
+      <h1>landing page</h1>
+    </div>
+  );
 }

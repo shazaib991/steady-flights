@@ -1,0 +1,165 @@
+.formSectionWrapper{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.formSectionWrapper::before{
+    content: "";
+    background: url("/assets/Group 1078.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.formSectionContainer{
+    padding: 80px 0 0 230px;
+}
+
+.formSectionForm{
+    width: 664px;
+    height: 620px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-top: 5px solid #1ABEC8;
+    padding: 40px 45px 0 45px;
+}
+
+.formSectionForm h1{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #212529;
+}
+
+.formSectionContainerSpan1 {
+    color: #1ABEC8;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.formSectionFormTitlePara{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.formSectionFormInputContainerEmail{
+    width: 100%;
+    border: 1px solid #D3D3D3;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+.formSectionFormInputContainerEmail input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 100%;
+    color: #212529;
+}
+
+.formSectionFormInputContainerEmail p{
+    color: #A6A8A9;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.formSectionFormInputContainerPassword{
+    width: 100%;
+    border: 1px solid #D3D3D3;
+    border-radius: 15px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0 20px 0;
+}
+
+.formSectionFormInputContainerPassword div{
+    width: 100%;
+}
+
+.formSectionFormInputContainerPassword input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 100%;
+    color: #212529;
+}
+
+.formSectionFormInputContainerPassword p{
+    color: #A6A8A9;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.formSectionFormInputContainerPassword img{
+    cursor: pointer;
+}
+
+.formSectionContainerSpan2 {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.formSectionFormButtonsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formSectionFormButtonLogin {
+    height: 64px;
+    width: 100%;
+    background-color: #1ABEC8;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.formSectionFormButtonGoogle {
+    height: 64px;
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0000008A;
+    box-shadow: 0px 2px 3px 0px #0000002B;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+
+.formSectionFormButtonGoogle img{
+    margin-right: 15px;
+}
+
+.formSectionFormRegister {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.formSectionFormSpan3 {
+    color: #1ABEC8;
+    cursor: pointer;
+}
