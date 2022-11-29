@@ -1,0 +1,61 @@
+.headerWrapper{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px 0 190px;
+}
+
+.headerAndParaContainer{
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo{
+    margin-right: 195px;
+}
+
+
+.headerPara{
+    display: flex;
+}
+
+
+.headerPara p{
+    margin-right: 30px;
+    color: #909294;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.headerContactContainer{
+    display: flex;
+}
+
+.headerContactButton{
+    width: 138px;
+    height: 44px;
+    background-color: #1ABEC8;
+    border-radius: 15px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.headerPicture{
+    margin-left: 26px;
+}
