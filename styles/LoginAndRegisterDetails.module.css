@@ -50,10 +50,18 @@
     padding: 0 45px;
 }
 
-.DetailsCardPara2 {
+.DetailsCardLoginPara2 {
     padding: 0 50px;
 }
 
-.DetailsCardPara3 {
+.DetailsCardRegisterPara2 {
+    padding: 0 20px;
+}
+
+.DetailsCardLoginPara3 {
     padding: 0 25px;
+}
+
+.DetailsCardRegisterPara3 {
+    padding: 0 20px;
 }

@@ -4,12 +4,12 @@ import { Footer } from "../components/LoginAndRegister/Footer";
 import { FormSection } from "../components/LoginAndRegister/FormSection";
 import { Header } from "../components/LoginAndRegister/Header";
 
-export default function login() {
+export default function register() {
   return (
     <div>
       <Header />
-      <FormSection />
-      <Details />
+      <FormSection isRegisterPage={true} />
+      <Details isRegisterPage={true} />
       <Footer />
     </div>
   );

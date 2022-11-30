@@ -1,12 +1,20 @@
 import styles from "../../styles/LoginAndRegisterDetails.module.css";
 import Image from "next/image";
 
-export const Details = () => {
+export const Details = ({ isRegisterPage }) => {
   return (
     <div className={styles.DetailsWrapper}>
       <div className={styles.DetailsContainer}>
-        <h1>Login to your account and get the most out of your travels!</h1>
-        <p>Traveling made easy.</p>
+        <h1>
+          {isRegisterPage
+            ? "Register and don't miss out on Steady Flights features."
+            : "Login to your account and get the most out of your travels!"}
+        </h1>
+        <p>
+          {isRegisterPage
+            ? "Once you register, you'll unlock access to all our features!"
+            : "Traveling made easy."}
+        </p>
         <div className={styles.DetailsCardsContainer}>
           <div className={styles.DetailsCard}>
             <Image
@@ -15,10 +23,15 @@ export const Details = () => {
               width={471}
               height={230}
             />
-            <h1>Travel Features</h1>
+            <h1>
+              {isRegisterPage
+                ? "Access to all our features"
+                : "Travel Features"}
+            </h1>
             <p className={styles.DetailsCardPara1}>
-              Steady Alerts, Steady Rewards, and much more! Access depends on
-              your package.
+              {isRegisterPage
+                ? "Steady Alerts, Steady Rewards & more with our full package."
+                : "Steady Alerts, Steady Rewards, and much more! Access depends on your package."}
             </p>
           </div>
           <div className={styles.DetailsCard}>
@@ -29,9 +42,16 @@ export const Details = () => {
               height={230}
             />
             <h1>Excellent Deals</h1>
-            <p className={styles.DetailsCardPara2}>
-              Searching for the best deals has never been easier than it is now
-              with Steady Flights.
+            <p
+              className={
+                isRegisterPage
+                  ? styles.DetailsCardRegisterPara2
+                  : styles.DetailsCardLoginPara2
+              }
+            >
+              {isRegisterPage
+                ? "With our Search Engine you'll be able to find excellent deals to fly away."
+                : "Searching for the best deals has never been easier than it is now with Steady Flights."}
             </p>
           </div>
           <div className={styles.DetailsCard}>
@@ -42,9 +62,16 @@ export const Details = () => {
               height={230}
             />
             <h1>Traveler Profile</h1>
-            <p className={styles.DetailsCardPara3}>
-              Fill out your Traveler Profile and get access to Auto-Buy,
-              personal deals & more.
+            <p
+              className={
+                isRegisterPage
+                  ? styles.DetailsCardRegisterPara3
+                  : styles.DetailsCardLoginPara3
+              }
+            >
+              {isRegisterPage
+                ? "In our profile section, you can setup your traveler profile with many feautres like Countries Visited section."
+                : "Fill out your Traveler Profile and get access to Auto-Buy,personal deals & more."}
             </p>
           </div>
         </div>
