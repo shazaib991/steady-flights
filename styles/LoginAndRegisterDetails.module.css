@@ -1,0 +1,59 @@
+.DetailsWrapper{
+    width: 100%;
+    height: 775px;
+}
+
+.DetailsContainer {
+    padding: 0 230px;
+}
+
+.DetailsContainer > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.DetailsContainer > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #A6A8A9;
+}
+
+.DetailsCardsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 0 0;
+}
+
+.DetailsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DetailsCard img {
+    height: 230px;
+}
+
+.DetailsCard h1 {
+    margin: 40px 0 16px 0;
+}
+
+.DetailsCard p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #A6A8A9;
+}
+
+.DetailsCardPara1 {
+    padding: 0 45px;
+}
+
+.DetailsCardPara2 {
+    padding: 0 50px;
+}
+
+.DetailsCardPara3 {
+    padding: 0 25px;
+}

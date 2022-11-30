@@ -1,12 +1,12 @@
 .formSectionWrapper{
     width: 100%;
-    height: 900px;
+    height: 850px;
     position: relative;
 }
 
 .formSectionWrapper::before{
     content: "";
-    background: url("/assets/Group 1078.jpg");
+    background: url("/assets/Group 1078.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,17 +22,16 @@
 
 .formSectionForm{
     width: 664px;
-    height: 620px;
     background-color: #ffffff;
     border-radius: 10px;
     border-top: 5px solid #1ABEC8;
-    padding: 40px 45px 0 45px;
+    padding: 45px 48px 53px 48px;
 }
 
 .formSectionForm h1{
     font-size: 36px;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #212529;
 }
 
@@ -45,7 +44,7 @@
 .formSectionFormTitlePara{
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
 }
 
 .formSectionFormInputContainerEmail{
@@ -60,7 +59,7 @@
     outline: none;
     font-size: 18px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 24px;
     width: 100%;
     color: #212529;
 }
@@ -79,7 +78,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 18px 0 20px 0;
+    margin: 17px 0 20px 0;
 }
 
 .formSectionFormInputContainerPassword div{
@@ -129,7 +128,7 @@
     font-weight: 600;
     border: none;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -147,7 +146,7 @@
     color: #0000008A;
     box-shadow: 0px 2px 3px 0px #0000002B;
     cursor: pointer;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .formSectionFormButtonGoogle img{
