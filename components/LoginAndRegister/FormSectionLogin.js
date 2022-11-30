@@ -1,4 +1,5 @@
 import styles from "../../styles/LoginAndRegisterFormSection.module.css";
+import Image from "next/image";
 
 export const FormSectionLogin = () => {
   return (
@@ -7,10 +8,10 @@ export const FormSectionLogin = () => {
         <div className={styles.formSectionForm}>
           <h1>
             <span className={styles.formSectionContainerSpan1}>Login</span> and
-            let's explore world!
+            let&apos;s explore world!
           </h1>
           <p className={styles.formSectionFormTitlePara}>
-            At prices you'll love.
+            At prices you&apos;ll love.
           </p>
           <form>
             <div className={styles.formSectionFormInputContainerEmail}>
@@ -22,7 +23,12 @@ export const FormSectionLogin = () => {
                 <p>Password</p>
                 <input type="text" name="Password" id="Password" />
               </div>
-              <img src="/assets/eye 1.svg" alt="hide password" />
+              <Image
+                src="/assets/eye 1.svg"
+                alt="hide password"
+                width={24}
+                height={25}
+              />
             </div>
           </form>
           <div className={styles.formSectionContainerSpan2}>Reset Password</div>
@@ -31,15 +37,17 @@ export const FormSectionLogin = () => {
               Login with Steady Flights
             </button>
             <button className={styles.formSectionFormButtonGoogle}>
-              <img
+              <Image
                 src="/assets/logo googleg 48dp.png"
                 alt="google authorization"
+                width={24}
+                height={24}
               />
               Login with Google
             </button>
           </div>
           <p className={styles.formSectionFormRegister}>
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <span className={styles.formSectionFormSpan3}>Register</span>
           </p>
         </div>

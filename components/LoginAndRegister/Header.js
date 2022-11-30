@@ -1,4 +1,5 @@
 import styles from "../../styles/LoginAndRegisterHeader.module.css";
+import Image from "next/image";
 
 export const Header = () => {
   return (
@@ -6,10 +7,12 @@ export const Header = () => {
       <div className={styles.headerContainer}>
         <div className={styles.headerAndParaContainer}>
           <div className={styles.headerLogoContainer}>
-            <img
+            <Image
               src="/assets/JPG-01.png"
               alt="steady flights logo"
               className={styles.headerLogo}
+              width={187}
+              height={62}
             />
           </div>
           <div className={styles.headerPara}>
@@ -20,9 +23,11 @@ export const Header = () => {
         </div>
         <div className={styles.headerContactContainer}>
           <button className={styles.headerContactButton}>Contact</button>
-          <img
+          <Image
             src="/assets/Ellipse 5.png"
             alt="profile picture"
+            width={44}
+            height={44}
             className={styles.headerPicture}
           />
         </div>

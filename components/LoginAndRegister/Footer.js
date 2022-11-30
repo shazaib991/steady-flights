@@ -1,12 +1,18 @@
 import styles from "../../styles/LoginAndRegisterFooter.module.css";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
     <div className={styles.footerWrapper}>
       <div className={styles.footerContainer}>
         <div className={styles.footerLogo}>
-          <img src="/assets/JPG-02.png" alt="steady flights logo" />
-          <p>Flights you need, at prices you'll love.</p>
+          <Image
+            src="/assets/JPG-02.png"
+            alt="steady flights logo"
+            width={187}
+            height={62}
+          />
+          <p>Flights you need, at prices you&apos;ll love.</p>
         </div>
         <div className={styles.footerRightContainer}>
           <div className={styles.footerLinksContainer}>
