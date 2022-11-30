@@ -1,0 +1,91 @@
+.footerWrapper {
+    width: 100%;
+    background-color: #212529;
+}
+
+.footerContainer {
+    padding: 104px 230px 0 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerRightContainer {
+    display: flex;
+}
+
+.footerLogo {
+    margin-right: 240px;
+}
+
+.footerLogo img{
+    margin-bottom: 33px;
+}
+
+.footerLogo p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerLinksContainer {
+    display: flex;
+}
+
+.footerLinks {
+    margin-right: 70px;
+}
+
+.footerLinks h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 44px;
+}
+
+.footerLinks p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footerSubscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerSubscribe h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 33px;
+}
+
+.footerSubscribe input {
+    width: 376px;
+    height: 81px;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    padding: 0 30px;
+    background-color: #373B3E;
+    margin-bottom: 20px;
+}
+
+.footerSubscribe input::placeholder {
+    color: #ffffff;
+}
+
+.footerSubscribe button {
+    width: 376px;
+    height: 81px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
