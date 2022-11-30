@@ -1,10 +1,13 @@
 .footerWrapper {
     width: 100%;
     background-color: #212529;
+    display: flex;
+    justify-content: center;
 }
 
 .footerContainer {
-    padding: 104px 230px 0 230px;
+    max-width: 1920px;
+    margin-top: 104px;
     display: flex;
     justify-content: space-between;
 }

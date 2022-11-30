@@ -28,7 +28,13 @@ export const Details = ({ isRegisterPage }) => {
                 ? "Access to all our features"
                 : "Travel Features"}
             </h1>
-            <p className={styles.DetailsCardPara1}>
+            <p
+              className={
+                isRegisterPage
+                  ? styles.DetailsCardRegisterPara1
+                  : styles.DetailsCardLoginPara1
+              }
+            >
               {isRegisterPage
                 ? "Steady Alerts, Steady Rewards & more with our full package."
                 : "Steady Alerts, Steady Rewards, and much more! Access depends on your package."}
@@ -70,7 +76,7 @@ export const Details = ({ isRegisterPage }) => {
               }
             >
               {isRegisterPage
-                ? "In our profile section, you can setup your traveler profile with many feautres like Countries Visited section."
+                ? "In our profile section, you can setup your traveler profile with many features like Countries Visited section."
                 : "Fill out your Traveler Profile and get access to Auto-Buy,personal deals & more."}
             </p>
           </div>
