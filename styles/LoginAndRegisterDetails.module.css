@@ -12,7 +12,8 @@
 .DetailsContainer > h1 {
     font-size: 40px;
     margin-bottom: 29px;
-    font-family: customFontMedium;
+    font-weight: bolder;
+    font-family: customFontRegular;
 }
 
 .DetailsContainer > p {
@@ -41,8 +42,9 @@
 }
 
 .DetailsCard h1 {
+    font-size: 30px;
     margin: 40px 0 16px 0;
-    font-family: customFontMedium;
+    font-family: customFontRegular;
 }
 
 .DetailsCard p {
