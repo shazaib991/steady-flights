@@ -1,9 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: customFontRegular;
+  src: url(OpenSauceSans-Regular.ttf);
+}
 
-html,
-body {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont,Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: customFontMedium;
+  src: url(OpenSauceSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: customFontLight;
+  src: url(OpenSauceSans-Light.ttf);
+}
+
+@font-face {
+  font-family: customFontBold;
+  src: url(OpenSauceSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: customFontExtraBold;
+  src: url(OpenSauceSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: customFontSemiBold;
+  src: url(OpenSauceSans-SemiBold.ttf);
 }
 
 * {

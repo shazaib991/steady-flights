@@ -43,6 +43,7 @@
     font-weight: 800;
     margin-bottom: 10px;
     color: #212529;
+    font-family: customFontMedium;
 }
 
 .formSectionRegisterForm h1{
@@ -50,6 +51,7 @@
     font-weight: 800;
     margin-bottom: 10px;
     color: #212529;
+    font-family: customFontMedium;
 }
 
 .formSectionContainerSpan1 {
@@ -60,8 +62,8 @@
 
 .formSectionFormTitlePara{
     font-size: 16px;
-    font-weight: 500;
     margin-bottom: 24px;
+    font-family: customFontMedium;
 }
 
 .formSectionFormInputContainerEmail{
@@ -80,6 +82,7 @@
     margin-top: 10px;
     width: 100%;
     color: #212529;
+    font-family: customFontRegular;
 }
 
 .formSectionFormInputContainerEmail p{
@@ -87,6 +90,7 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 15px;
+    font-family: customFontRegular;
 }
 
 .formSectionFormInputContainerPassword{
@@ -114,6 +118,7 @@
     margin-top: 6px;
     width: 100%;
     color: #212529;
+    font-family: customFontRegular;
 }
 
 .formSectionFormInputContainerPassword p{
@@ -121,6 +126,7 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 15px;
+    font-family: customFontMedium;
 }
 
 .formSectionFormInputContainerPassword img{
@@ -133,12 +139,14 @@
     font-weight: 600;
     cursor: pointer;
     margin: 20px 0;
+    font-family: customFontRegular;
+    letter-spacing: 0.2px;
 }
 
 .formSectionRegisterSpan {
     font-size: 16px;
     display: inline-block;
-    font-weight: 600;
+    font-family: customFontMedium;
     cursor: pointer;
     margin: 11px 0 20px 0;
     color: #7A7C7F;
@@ -149,11 +157,7 @@
     align-items: center;
     margin-bottom: 20px;
     font-size: 16px;
-    font-weight: 600;
-}
-
-.formSectionNewletterContainer p {
-    cursor: default;
+    font-family: customFontMedium;
 }
 
 .formSectionNewletterContainer input {
@@ -164,7 +168,7 @@
 
 .formSectionNewletterContainer p {
     font-size: 16px;
-    font-weight: 600;
+    cursor: default;
 }
 
 .formSectionFormButtonsContainer {
@@ -178,11 +182,12 @@
     background-color: #1ABEC8;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 600;
     border: none;
     border-radius: 15px;
     margin-bottom: 20px;
     cursor: pointer;
+    font-family: customFontMedium;
+    letter-spacing: 0.2px;
 }
 
 .formSectionFormButtonGoogle {
@@ -190,7 +195,6 @@
     width: 100%;
     background-color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
     border: none;
     border-radius: 15px;
     display: flex;
@@ -200,6 +204,7 @@
     box-shadow: 0px 2px 3px 0px #0000002B;
     cursor: pointer;
     margin-bottom: 20px;
+    font-family: customFontExtraBold;
 }
 
 .formSectionFormButtonGoogle img{
@@ -208,7 +213,8 @@
 
 .formSectionFormRegister {
     font-size: 16px;
-    font-weight: 600;
+    font-family: customFontBold;
+    letter-spacing: 0.2px;
 }
 
 .formSectionFormSpan3 {

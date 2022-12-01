@@ -11,14 +11,14 @@
 
 .DetailsContainer > h1 {
     font-size: 40px;
-    font-weight: 700;
     margin-bottom: 29px;
+    font-family: customFontMedium;
 }
 
 .DetailsContainer > p {
     font-size: 16px;
-    font-weight: 500;
     color: #A6A8A9;
+    font-family: customFontRegular;
 }
 
 .DetailsCardsContainer {
@@ -42,13 +42,15 @@
 
 .DetailsCard h1 {
     margin: 40px 0 16px 0;
+    font-family: customFontMedium;
 }
 
 .DetailsCard p {
     text-align: center;
     font-size: 22px;
-    font-weight: 700;
     color: #A6A8A9;
+    font-family: customFontMedium;
+    line-height: 40px;
 }
 
 .DetailsCardLoginPara1 {

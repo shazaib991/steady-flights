@@ -7,7 +7,7 @@
 
 .footerContainer {
     max-width: 1920px;
-    margin-top: 104px;
+    margin: 104px 0 80px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -27,7 +27,8 @@
 .footerLogo p {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 400;
+    font-family: customFontRegular;
+    letter-spacing: 0.2px;
 }
 
 .footerLinksContainer {
@@ -40,17 +41,19 @@
 
 .footerLinks h1{
     font-size: 20px;
-    font-weight: 400;
     color: #ffffff;
     margin-bottom: 44px;
+    font-weight: 400;
+    font-family: customFontRegular;
+    letter-spacing: 0.2px;
 }
 
 .footerLinks p {
-    color: #ffffff;
+    color: #e3e4e4;
     font-size: 16px;
-    font-weight: 600;
     margin-bottom: 20px;
     cursor: pointer;
+    font-family: customFontRegular;
 }
 
 .footerSubscribe {
@@ -60,9 +63,10 @@
 
 .footerSubscribe h1 {
     font-size: 20px;
-    font-weight: 400;
     color: #ffffff;
     margin-bottom: 33px;
+    font-weight: 400;
+    font-family: customFontRegular;
 }
 
 .footerSubscribe input {
@@ -72,7 +76,7 @@
     border: none;
     border-radius: 7px;
     font-size: 16px;
-    font-weight: 600;
+    font-family: customFontRegular;
     outline: none;
     padding: 0 30px;
     background-color: #373B3E;
@@ -81,13 +85,14 @@
 
 .footerSubscribe input::placeholder {
     color: #ffffff;
+    font-family: customFontLight;
 }
 
 .footerSubscribe button {
     width: 376px;
     height: 81px;
     border-radius: 7px;
-    font-weight: 500;
+    font-family: customFontRegular;
     font-size: 16px;
     background-color: #ffffff;
     cursor: pointer;
