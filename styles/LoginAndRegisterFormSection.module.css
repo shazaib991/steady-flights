@@ -152,23 +152,75 @@
     color: #7A7C7F;
 }
 
-.formSectionNewletterContainer label {
+.formSectionNewletterContainer {
     display: inline-flex;
     align-items: center;
     margin-bottom: 20px;
-    font-size: 16px;
-    font-family: customFontMedium;
 }
 
-.formSectionNewletterContainer input {
+.formSectionNewletterContainer.active .formSectionNewletterCheckboxUnactive{
+    display:  none;
+}
+
+.formSectionNewletterContainer.active .formSectionNewletterCheckbox {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.formSectionNewletterContainer.active .formSectionNewletterCheckmark1 {
+    display: block;
+}
+
+.formSectionNewletterContainer.active .formSectionNewletterCheckmark2 {
+    display: block;
+}
+
+.formSectionNewletterCheckboxUnactive {
+    display: block;
     width: 16px;
     height: 16px;
-    margin-right: 5px;
+    border-radius: 3px;
+    background-color: #ebebeb;
+}
+
+.formSectionNewletterCheckbox {
+    display: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1ABEC8;
+    border-radius: 3px;
+    position: relative;
+}
+
+.formSectionNewletterCheckmark1 {
+    display: none;
+    transform: rotate(45deg);
+    height: 10px;
+    width: 4.3px;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+.formSectionNewletterCheckmark2 {
+    display: none;
+    transform: rotate(45deg);
+    height: 10px;
+    width: 4.3px;
+    position: absolute;
+    top: 2.4px;
+    left: 6.4px;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
 }
 
 .formSectionNewletterContainer p {
     font-size: 16px;
+    font-family: customFontMedium;
     cursor: default;
+    margin-left: 5px;
 }
 
 .formSectionFormButtonsContainer {

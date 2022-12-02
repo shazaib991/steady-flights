@@ -56,15 +56,26 @@ export const FormSection = ({ isRegisterPage }) => {
             </div>
           )}
           {isRegisterPage && (
-            <div className={styles.formSectionNewletterContainer}>
-              <label>
-                <input
-                  type="checkbox"
-                  name="newsletterCheck"
-                  id="newsletterCheck"
-                />
-                Subscribe to Newsletter
-              </label>
+            <div>
+              <div
+                className={styles.formSectionNewletterContainer}
+                onClick={(e) => e.currentTarget.classList.toggle(styles.active)}
+              >
+                {/* <Image
+                  src="/assets/Vector.png"
+                  width={16}
+                  height={16}
+                  className={styles.formSectionNewletterCheckboxImage}
+                /> */}
+                <div
+                  className={styles.formSectionNewletterCheckboxUnactive}
+                ></div>
+                <div className={styles.formSectionNewletterCheckbox}>
+                  <div className={styles.formSectionNewletterCheckmark1}></div>
+                  <div className={styles.formSectionNewletterCheckmark2}></div>
+                </div>
+                <p>Subscribe to Newsletter</p>
+              </div>
             </div>
           )}
           <div className={styles.formSectionFormButtonsContainer}>
