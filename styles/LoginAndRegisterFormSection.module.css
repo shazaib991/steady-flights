@@ -1,12 +1,13 @@
-.formSectionWrapper{
+.formSectionCover{
     width: 100%;
-    height: 80vh;
-    /* height: 930px; */
+    height: 665px;
     position: relative;
     display: flex;
+    justify-content: center;
+    overflow-x: hidden;
 }
 
-.formSectionWrapper::before{
+.formSectionCover::before{
     content: "";
     background: url("/assets/Untitled.svg");
     background-repeat: no-repeat;
@@ -14,32 +15,42 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    min-width: 1280px;
+    max-width: 1366px;
     position: absolute;
     z-index: -1;
 }
 
+.formSectionWrapper {
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+}
+
 .formSectionContainer{
-    padding: 80px 0 0 230px;
+    width: 73.5%;
+    margin: 80px 0 0 0;
 }
 
 .formSectionLoginForm{
-    width: 664px;
+    width: 464px;
     background-color: #ffffff;
     border-radius: 10px;
-    border-top: 5px solid #1ABEC8;
-    padding: 45px 48px 53px 48px;
+    border-top: 4px solid #1ABEC8;
+    padding: 30px 35px 12px 35px;
 }
 
 .formSectionRegisterForm{
-    width: 664px;
+    width: 464px;
     background-color: #ffffff;
     border-radius: 10px;
-    border-top: 5px solid #1ABEC8;
-    padding: 45px 48px 40px 48px;
+    border-top: 4px solid #1ABEC8;
+    padding: 30px 35px 25px 35px;
 }
 
 .formSectionLoginForm h1{
-    font-size: 36px;
+    font-size: 23px;
     font-weight: 800;
     margin-bottom: 10px;
     color: #212529;
@@ -47,7 +58,7 @@
 }
 
 .formSectionRegisterForm h1{
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 800;
     margin-bottom: 10px;
     color: #212529;
@@ -56,30 +67,30 @@
 
 .formSectionContainerSpan1 {
     color: #1ABEC8;
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 800;
 }
 
 .formSectionFormTitlePara{
-    font-size: 16px;
-    margin-bottom: 24px;
+    font-size: 12px;
+    margin-bottom: 30px;
     font-family: customFontMedium;
 }
 
 .formSectionFormInputContainerEmail{
     width: 100%;
-    height: 81px;
+    height: 61px;
     border: 1px solid #D3D3D3;
     border-radius: 15px;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .formSectionFormInputContainerEmail input{
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 7px;
     width: 100%;
     color: #212529;
     font-family: customFontRegular;
@@ -87,18 +98,18 @@
 
 .formSectionFormInputContainerEmail p{
     color: #A6A8A9;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 8px;
     font-family: customFontRegular;
 }
 
 .formSectionFormInputContainerPassword{
     width: 100%;
-    height: 81px;
+    height: 61px;
     border: 1px solid #D3D3D3;
     border-radius: 15px;
-    padding: 0 20px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,9 +124,9 @@
 .formSectionFormInputContainerPassword input{
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
-    margin-top: 6px;
+    margin-top: 7px;
     width: 100%;
     color: #212529;
     font-family: customFontRegular;
@@ -123,9 +134,9 @@
 
 .formSectionFormInputContainerPassword p{
     color: #A6A8A9;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 8px;
     font-family: customFontMedium;
 }
 
@@ -134,17 +145,17 @@
 }
 
 .formSectionContainerSpan2 {
-    font-size: 16px;
+    font-size: 12px;
     display: inline-block;
     font-weight: 600;
     cursor: pointer;
-    margin: 20px 0;
+    margin: 12px 0;
     font-family: customFontRegular;
     letter-spacing: 0.2px;
 }
 
 .formSectionRegisterSpan {
-    font-size: 16px;
+    font-size: 12px;
     display: inline-block;
     font-family: customFontMedium;
     cursor: pointer;
@@ -164,7 +175,6 @@
 
 .formSectionNewletterContainer.active .formSectionNewletterCheckbox {
     display: flex;
-    /* justify-content: center; */
 }
 
 .formSectionNewletterContainer.active .formSectionNewletterCheckmark1 {
@@ -229,26 +239,26 @@
 }
 
 .formSectionFormButtonLogin {
-    height: 64px;
+    height: 44px;
     width: 100%;
     background-color: #1ABEC8;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 14px;
     border: none;
-    border-radius: 15px;
-    margin-bottom: 20px;
+    border-radius: 11px;
+    margin-bottom: 10px;
     cursor: pointer;
     font-family: customFontMedium;
     letter-spacing: 0.2px;
 }
 
 .formSectionFormButtonGoogle {
-    height: 64px;
+    height: 44px;
     width: 100%;
     background-color: #ffffff;
-    font-size: 20px;
+    font-size: 14px;
     border: none;
-    border-radius: 15px;
+    border-radius: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,11 +270,11 @@
 }
 
 .formSectionFormButtonGoogle img{
-    margin-right: 15px;
+    margin-right: 12px;
 }
 
 .formSectionFormRegister {
-    font-size: 16px;
+    font-size: 12px;
     font-family: customFontBold;
     letter-spacing: 0.2px;
 }
@@ -274,12 +284,33 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 1280px) {
     .formSectionContainer {
-        padding: 130px 0 0 550px;
+        width: 90%;
     }
 
-    .formSectionWrapper {
-        height: 1200px;
+    .formSectionLoginForm {
+        width: 418px;
+    }
+
+    .formSectionRegisterForm {
+        width: 418px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .formSectionLoginForm {
+        width: 88%;
+    }
+
+    .formSectionRegisterForm {
+        width: 88%;
+    }
+
+    .formSectionContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 25px 0 0 0;
     }
 }

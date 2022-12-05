@@ -1,23 +1,29 @@
-.DetailsWrapper{
+.DetailsCover {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+.DetailsWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1366px;
+}
+
 .DetailsContainer {
-    width: 75%;
-    max-width: 1920px;
+    width: 73%;
 }
 
 .DetailsContainer > h1 {
-    font-size: 40px;
-    margin-bottom: 29px;
+    font-size: 24px;
+    margin-bottom: 20px;
     font-weight: bolder;
     font-family: customFontRegular;
 }
 
 .DetailsContainer > p {
-    font-size: 16px;
+    font-size: 14px;
     color: #A6A8A9;
     font-family: customFontRegular;
 }
@@ -27,36 +33,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 80px 0 120px 0;
+    margin: 80px 0 60px 0;
 }
 
 .DetailsCard {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 420px;
-}
-
-.DetailsCard img {
-    height: 230px;
+    width: 300px;
 }
 
 .DetailsCard h1 {
-    font-size: 30px;
-    margin: 40px 0 16px 0;
+    font-size: 20px;
+    margin: 28px 0 14px 0;
     font-family: customFontRegular;
 }
 
 .DetailsCard p {
     text-align: center;
-    font-size: 22px;
+    font-size: 15px;
     color: #A6A8A9;
     font-family: customFontMedium;
-    line-height: 40px;
+    line-height: 28px;
 }
 
 .DetailsCardLoginPara1 {
-    width: 95%;
+    width: 91%;
 }
 
 .DetailsCardRegisterPara1 {
@@ -64,15 +66,47 @@
 }
 
 .DetailsCardLoginPara2 {
-    width: 96%;
+    width: 94%;
 }
 
 .DetailsCardRegisterPara2 {
     width: 94%;
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 1280px) {
     .DetailsContainer {
-        width: 56.5%;
+        width: 90%;
+    }
+
+    .DetailsCardsContainer {
+        justify-content: space-evenly;
+    }
+
+    .DetailsCard {
+        margin: 20px 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .DetailsContainer {
+        width: 100%;
+    }
+
+    .DetailsCardsContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .DetailsCard {
+        margin: 0 0 50px 0;
+    }
+
+    .DetailsContainer > h1 {
+        margin-left: 15px;
+    }
+
+    .DetailsContainer > p {
+        margin-left: 15px;
     }
 }
