@@ -6,7 +6,13 @@ export const FormSection = ({ isRegisterPage }) => {
   const router = useRouter();
 
   return (
-    <div className={styles.formSectionCover}>
+    <div
+      className={
+        isRegisterPage
+          ? styles.formSectionRegisterCover
+          : styles.formSectionLoginCover
+      }
+    >
       <div className={styles.formSectionWrapper}>
         <div className={styles.formSectionContainer}>
           <div
